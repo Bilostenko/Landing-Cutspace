@@ -1,0 +1,19 @@
+.navigation-list {
+
+    ul {
+        display: flex;
+    }
+
+    li:not(:last-child) {
+        margin-right: 42px;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover, &.active {
+            color: $accent-color;
+        }
+    }
+}

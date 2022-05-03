@@ -1,0 +1,14 @@
+.img-card{
+    position: relative;
+    width: 385px;
+
+    & + & {
+        margin-left: 30px;
+    }
+}
+
+.img-card__info{
+    position: absolute;
+    right: -46px;
+    bottom: 87px;
+}
