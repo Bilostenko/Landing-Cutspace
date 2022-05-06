@@ -581,7 +581,7 @@ html, body {
   position: relative;
   padding-top: 200px;
   padding-bottom: 55px;
-  background-image: url(../../img/contacts_img/footer-bg.svg);
+  background-image: url("../../img/contacts_img/footer-bg.svg");
   block-size: cover;
   background-repeat: no-repeat;
   margin-left: 300px;
@@ -661,6 +661,8 @@ html, body {
 
 .footer_nav-block {
   font-size: 14px; }
+  .footer_nav-block a {
+    color: black; }
   .footer_nav-block li {
     margin-bottom: 13px; }
   .footer_nav-block a:hover {
