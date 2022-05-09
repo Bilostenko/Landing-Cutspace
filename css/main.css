@@ -583,6 +583,7 @@ html, body {
   padding-bottom: 55px;
   background-image: url("/img/contacts_img/footer-bg.svg");
   /* ../../img/contacts_img/footer-bg.svg */
+
   block-size: cover;
   background-repeat: no-repeat;
   margin-left: 300px;
@@ -593,7 +594,10 @@ html, body {
     width: 743px;
     height: 372px;
     background-image: url("/img/contacts_img/footer-oval.svg");
+
     /* ../../img/contacts_img/footer-oval.svg */
+
+
     background-size: initial;
     position: absolute;
     bottom: -1;
@@ -605,7 +609,9 @@ html, body {
     width: 478px;
     height: 547px;
     background-image: url("/img/contacts_img/girl.png");
+
     /* ../../img/contacts_img/girl.png */
+
     background-size: initial;
     position: absolute;
     bottom: 0;
